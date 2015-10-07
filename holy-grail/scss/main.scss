@@ -1,0 +1,29 @@
+.HolyGrail{
+    &-header{
+        display: flex;
+        background-color: teal;
+    }
+    &-body{
+        display: flex;
+        flex-direction: row;
+    }
+    &-content{
+        order: 2;
+        flex: 3;
+        background-color: blue;
+    }
+    &-nav{
+        order: 1;
+        flex: 0 0 6em;
+        background-color: orchid;
+    }
+    &-ads{
+        order: 3;
+        flex: 0 0 8em;
+        background-color: tomato;
+    }
+    &-footer{
+        display: flex;
+        background-color: pink; 
+    }
+}

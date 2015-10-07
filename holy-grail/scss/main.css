@@ -1,0 +1,23 @@
+.HolyGrail-header {
+  display: flex;
+  background-color: teal; }
+.HolyGrail-body {
+  display: flex;
+  flex-direction: row; }
+.HolyGrail-content {
+  order: 2;
+  flex: 3;
+  background-color: blue; }
+.HolyGrail-nav {
+  order: 1;
+  flex: 0 0 6em;
+  background-color: orchid; }
+.HolyGrail-ads {
+  order: 3;
+  flex: 0 0 8em;
+  background-color: tomato; }
+.HolyGrail-footer {
+  display: flex;
+  background-color: pink; }
+
+/*# sourceMappingURL=main.css.map */

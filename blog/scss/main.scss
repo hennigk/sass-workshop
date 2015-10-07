@@ -1,1 +1,76 @@
-// write your code here
+@keyframes rotate {
+    0% {transform: rotateY(0deg)}
+    25% {transform: rotateY(180deg)}
+    50% {transform: rotateY(360deg)}
+    75% {transform: rotateY(180deg)}
+    100% {transform: rotateY(0deg)}
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(255, 233, 255), rgb(161, 97, 161));
+}
+
+.main-header{
+    color: MediumOrchid;
+    text-align: center;
+    
+    
+    &__title{
+        font-size: 38px;
+        margin: 0;
+        text-shadow: 2px 2px #2E0F3D;
+    }
+    
+    &__tagline{
+        font-size: 28px;
+        margin: 0;
+    }
+}
+
+.article{
+    &--sponsored{
+        color: blue;
+    }    
+    &__title{
+        color: pink;
+        text-align: center;
+    }
+    &__featured-image{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        display: block;
+        animation-name: rotate;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    &__paragraph{
+        float: left;
+        width: 25%;
+        
+        &--first{
+            width: 100%;
+        }
+    }
+}
+.author-info{
+    color: black;
+    clear: both;
+    &__image{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+    &__text{
+        width: 50%;
+        margin: auto;
+    }
+    &__link{
+        text-decoration: none;
+        color: white;
+    }
+}
+

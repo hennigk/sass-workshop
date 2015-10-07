@@ -1,0 +1,63 @@
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg); }
+  25% {
+    transform: rotateY(180deg); }
+  50% {
+    transform: rotateY(360deg); }
+  75% {
+    transform: rotateY(180deg); }
+  100% {
+    transform: rotateY(0deg); } }
+body {
+  background: linear-gradient(to bottom, #ffe9ff, #a161a1); }
+
+.main-header {
+  color: MediumOrchid;
+  text-align: center; }
+  .main-header__title {
+    font-size: 38px;
+    margin: 0;
+    text-shadow: 2px 2px #2E0F3D; }
+  .main-header__tagline {
+    font-size: 28px;
+    margin: 0; }
+
+.article--sponsored {
+  color: blue; }
+.article__title {
+  color: pink;
+  text-align: center; }
+.article__featured-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  animation-name: rotate;
+  animation-duration: 8s;
+  animation-iteration-count: infinite; }
+.article__paragraph {
+  float: left;
+  width: 25%; }
+  .article__paragraph--first {
+    width: 100%; }
+
+.author-info {
+  color: black;
+  clear: both; }
+  .author-info__image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block; }
+  .author-info__text {
+    width: 50%;
+    margin: auto; }
+  .author-info__link {
+    text-decoration: none;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
+/*hello*/

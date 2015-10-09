@@ -6,7 +6,6 @@
   flex-direction: row; }
 .HolyGrail-content {
   order: 2;
-  flex: 3;
   background-color: blue; }
 .HolyGrail-nav {
   order: 1;
